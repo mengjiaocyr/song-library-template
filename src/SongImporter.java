@@ -60,9 +60,11 @@ public class SongImporter
 
                 // Debug print
                 //System.out.println("artist: " + artist + " length: " + length + "topic: " + topic);
+                System.out.println(artistName + ", " + trackName + ", " + releaseDate + ", " + genre + ", " + length + ", " + shakeTheAudience + ", " + obscene + ", " + danceability + ", " + loudness + ", " + topic);
 
-                // Replace the next line with your song constructor
-                Song song = new Song(artistName, trackName); // code to construct a song object
+
+                 // Replace the next line with your song constructor
+                 Song song = new Song(); //artistName, trackName, releaseDate, genre, length, shakeTheAudience, obscene, danceability, loudness, topic); // code to construct a song object
 
                 // Add the song object to the data output. (Leave alone!~)
                 songs.add(song);
